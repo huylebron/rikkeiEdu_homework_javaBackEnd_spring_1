@@ -1,0 +1,22 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/library
+    username: postgres # Thay b?ng user c?a b?n
+    password: huylebron2828 # Thay b?ng pass c?a b?n
+    driver-class-name: org.postgresql.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: update # T? ??ng t?o table d?a trên Entity
+      show-sql: true # Hi?n th? câu l?nh SQL trong console ?? debug
+      properties:
+        hibernate:
+          format_sql: true
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+
+
+
